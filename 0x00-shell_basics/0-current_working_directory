@@ -1,3 +1,2 @@
 #!/bin/bash
-path = 'readlink -f'
-echo $path
+realpath "$0"
